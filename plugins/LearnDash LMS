@@ -1,3 +1,6 @@
 //Themes > ld30 > templete > lesson > particle > row > line 29
 
 $atts = apply_filters( 'learndash_lesson_row_atts', ( isset( $has_access ) && ! $has_access && 'is_not_sample' === $lesson['sample'] ? 'data-ld-tooltip="' . esc_html__( "Please enroll to access to this lesson", 'learndash' ) . '"' : '' ), $lesson['post']->ID, $course_id, $user_id );
+
+
+//Themes > ld30 > includes > helpers > row 624 > Free Lecture
